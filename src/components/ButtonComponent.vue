@@ -7,11 +7,15 @@ const emit = defineEmits(["doStuff"]);
 function getButtonClicked(value: number) {
 	console.log(value);
 }
+
+function peaches() {
+	emit("doStuff");
+}
 </script>
 
 <template>
 	<div class="row">
-		<button class="num-button" @click="$emit('doStuff')">1</button>
+		<button class="num-button" @click="peaches">1</button>
 		<div class="num-button" @click="getButtonClicked(2)">2</div>
 		<div class="num-button" @click="getButtonClicked(3)">3</div>
 	</div>
