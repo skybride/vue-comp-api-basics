@@ -2,9 +2,11 @@
 
 ## Focus:
 
-[] Setup using vite
-[] Passing props from parent to child component
-[] Emitting events from child to parent component
+- Setup using vite
+- Passing props from parent to child component
+- Emitting events from child to parent component
+
+##
 
 This template should help get you started developing with Vue 3 in Vite.
 
